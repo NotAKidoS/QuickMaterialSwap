@@ -3,8 +3,9 @@ Unity Editor script to make changing materials on an object &amp; its children m
 
 I built this script to make swapping materials on ChilloutVR avatars much easier.
 
-![image](https://user-images.githubusercontent.com/37721153/212060755-94aa7de4-0a32-4f46-a17e-4a4d390301d6.png)
-![image](https://user-images.githubusercontent.com/37721153/212060765-7dafc3b7-1427-4fa1-8343-cfae1224fd70.png)
+Sort by GameObjects             |  Sort by Shared Materials
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/37721153/212060755-94aa7de4-0a32-4f46-a17e-4a4d390301d6.png)  |  ![image](https://user-images.githubusercontent.com/37721153/212060765-7dafc3b7-1427-4fa1-8343-cfae1224fd70.png)
 
 
 ## How to Use
