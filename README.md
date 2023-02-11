@@ -18,3 +18,9 @@ Sort by GameObjects             |  Sort by Shared Materials
 * Changes are properly recorded using Unity's Undo System and can be undone using CTRL+Z.
 
 * Once you're done editing the materials, you can close the Material Editor window.
+
+---
+
+Here is the block of text where I tell you it's not my fault if you're bad at Unity.
+
+> Use of this Unity Script is done so at the user's own risk and the creator cannot be held responsible for any issues arising from its use.
