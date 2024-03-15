@@ -11,6 +11,8 @@ class MaterialSwap : EditorWindow
     private List<Material> materials;
     private bool showMaterials = true; //default mode is to show materials
 
+    private Vector2 scrollPosition;
+
     // Add a menu item to create the window
     [MenuItem("NotAKid/Quick Material Swap")]
     public static void ShowWindow()
@@ -23,6 +25,8 @@ class MaterialSwap : EditorWindow
     {
         float width = EditorGUIUtility.currentViewWidth * 0.985f;
         float scaledWidth = width / 2.6f;
+
+        scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
 
         // Select the target object
         EditorGUILayout.BeginHorizontal();
@@ -155,6 +159,9 @@ class MaterialSwap : EditorWindow
             EditorGUILayout.HelpBox("You need to select an object first!", MessageType.Info);
             EditorGUILayout.EndVertical();
         }
+
+        EditorGUILayout.EndScrollView();
+
     }
 
     private void ReplaceMaterial(Material oldMaterial, Material newMaterial)
